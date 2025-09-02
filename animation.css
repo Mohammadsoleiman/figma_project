@@ -1,0 +1,95 @@
+/* Wrapper to hold both content and particle background */
+.particle-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #f4f4f4; /* soft beige */
+}
+
+.particle-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none; /* so clicks pass through */
+  
+}
+
+.particle {
+  position: absolute;
+  background: rgba(100, 100, 100, 0.2);
+  border-radius: 50%;
+  animation: move 20s linear infinite;
+}
+
+/* Particle variations */
+.particle:nth-child(1) { width: 30px; height: 30px; left: 10%; top: 90%; animation-duration: 25s; background-color: black;}
+.particle:nth-child(2) { width: 20px; height: 20px; left: 30%; top: 95%; animation-duration: 20s; background-color: black; }
+.particle:nth-child(3) { width: 40px; height: 40px; left: 50%; top: 100%; animation-duration: 30s; background-color: black; }
+.particle:nth-child(4) { width: 15px; height: 15px; left: 70%; top: 90%; animation-duration: 22s; background-color: black;}
+.particle:nth-child(5) { width: 25px; height: 25px; left: 90%; top: 95%; animation-duration: 28s; background-color: black;}
+.particle:nth-child(6) { width: 12px; height: 12px; left: 15%; top: 98%; animation-duration: 18s;background-color: black; }
+.particle:nth-child(7) { width: 18px; height: 18px; left: 35%; top: 96%; animation-duration: 26s; background-color: black;}
+.particle:nth-child(8) { width: 22px; height: 22px; left: 55%; top: 99%; animation-duration: 24s;background-color: black; }
+.particle:nth-child(9) { width: 10px; height: 10px; left: 75%; top: 97%; animation-duration: 19s; background-color: black;}
+.particle:nth-child(10) { width: 16px; height: 16px; left: 85%; top: 94%; animation-duration: 23s;background-color: black; }
+
+@keyframes move {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-120vh) scale(1.2);
+    opacity: 0;
+  }
+}
+
+/* Make sure your content sits above the background */
+.section {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes slide-fwd-center{
+  0% {
+    transform: translateZ(0px) scale(1);
+  }
+  100% {
+    transform: translateZ(50px) scale(0.94); 
+  }
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* أنيميشن دخول من اليسار */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

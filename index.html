@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+ <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="" id="navbar">
+      <nav class="navbar navbar-expand-md container" id="navbar">
+        <div class="container-fluid p-0">
+          <div class="header_logo d-flex align-items-center">
+            <button class="btn_logo" ></button>
+            <div class="logo">Logo</div>
+          </div>
+
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="navv collapse navbar-collapse justify-content-end"
+            id="mainNavbar"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <div class="container" data-aos="fade-up" >
+      <!-- Start Hero -->
+      <div class="hero"   data-aos="fade-up" data-aos-delay="100">
+        <div class="title text-center mb-4">
+          <h1>The dawn of a new era in health is here</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam
+            lacus platea orci vel elit blandit facilisis
+          </p>
+          <button class="btn-hero" onclick="showCustomAlert()">Join now</button>
+          <div id="overlay"></div>
+
+<div id="customAlert">
+  <p>Welcome to the world of web!</p>
+  <button onclick="closeCustomAlert()">OK</button>
+</div>
+        </div>
+        <div class="picture mb-4 row">
+          <div class="col-sm-6 pic">
+            <img src="image/img1.png" alt="img1" height="391px" class="imgONE" />
+          </div>
+
+         <div class="col-sm-6 pic">
+          <img src="image/img2.png" alt="img2" class="imgONE" />
+        </div> 
+        </div>
+      </div>
+      <!-- End Hero -->
+      <!-- Start Section  -->
+       <div class="particle-wrapper">
+  <!-- 🎈 Particle Background -->
+  <div class="particle-container">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <!-- 🌟 Your Original Content -->
+  <div class="section row">
+    <div class="left col-6">
+      <h3 class="sub_title" >Wellbeing is welldoing</h3>
+      <div class="row justify-content-between mt-4">
+        <div class="section_box1 col-md-6 col-sm-6 mb-4">
+          <img src="image/Vector.png" alt="icon" onclick='document.getElementById("editTitle").innerHTML = "You clicked me! I&#39;m displaying your message written in JS! "' />
+          <p id="editTitle">
+            Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+            Diam lacus platea orci vel elit.
+          </p>
+        </div>
+
+        <div class="section_box1 col-md-6 col-sm-6">
+          <img src="image/Vector.png" alt="icon" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+            Diam lacus platea orci vel elit.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_right col-6">
+      <img src="image/Group.png" alt="User" />
+    </div>
+  </div>
+</div>
+
+      <!-- <div class="section row">
+        <div class="left col-6">
+          <h3 class="sub_title">Wellbeing is welldoing</h3>
+          <div class="row justify-content-between mt-4">
+            <div class="section_box1 col-md-6 col-sm-6 mb-4">
+              <img src="image/Vector.png" alt="icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea orci vel elit.
+              </p>
+            </div>
+
+            <div class="section_box1 col-md-6 col-sm-6">
+              <img src="image/Vector.png" alt="icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea orci vel elit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="img_right col-6">
+          <img src="image/Group.png" alt="User" />
+        </div>
+      </div> -->
+      <!-- End Section -->
+     
+      <!-- Start Nature -->
+      <div class="nature row justify-content-between">
+        <div class="nature_img col-sm-6 ml-0" data-aos="fade-left">
+          <img
+            src="image/nature.png"
+            alt="Nature"
+            height="500px"
+            width="100%"
+          />
+        </div>
+        <div class="nature_text col-sm-6" data-aos="fade-right">
+          <h1>Fresh organic produce</h1>
+          <p class="parag">
+            Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam
+            lacus platea orci vel elit blandit facilisis enim risus. Ut
+            tristique eget integer odio nec vulputate consequat. Elit mattis ac
+            in amet sit viverra.
+          </p>
+          <div class="d-flex flex-column mb-3 pb-4e">
+            <div class="nature_bar d-flex align-items-center p-0 me-4">
+              <img src="image/Vects.png" alt="img" height="25" width="27" />
+
+              <p class="mb-0">
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea
+              </p>
+            </div>
+
+            <div class="nature_bar d-flex align-items-center p-0 me-4">
+              <img src="image/Vects.png" alt="img" height="25" width="27" />
+
+              <p class="mb-0 ml-1">
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea
+              </p>
+            </div>
+
+            <div class="nature_bar d-flex align-items-center p-0 me-4">
+              <img src="image/Vects.png" alt="img" height="25" width="27" />
+
+              <p class="mb-0">
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Nature -->
+   <div class="toggles"> <button class="toggle" onclick="toggle()">Toggle Section</button></div>
+      <!-- Start Food -->
+      <div class="food d-flex justify-content-between section" id="del">
+        <div class="juice"><img src="image/food.png" alt="User"  id="drinkImage" onmouseover="Onmouse()"/></div>
+        <div class="text_juice">
+          <h1 >You are what you eat</h1>
+          <div class="row justify-content-between">
+            <div class="food_box col-md-6 col-sm-6">
+              <img src="image/VectorB.png" alt="icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea orci vel elit.
+              </p>
+            </div>
+            <div class="food_box col-md-6 col-sm-6">
+              <img src="image/VectorB.png" alt="icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
+                Diam lacus platea orci vel elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Food -->
+         <div id="item-section" class="text-center ">
+          <h4>list Section</h4>
+  <ul id="item-list">
+
+  </ul>
+
+  <button id="show-more-btn" onclick="showMore()">Show More</button>
+
+  <p id="message" style="display:none; color: red; font-weight: bold;"></p>
+</div>
+      <!-- Start Plant -->
+      <div class="plant mt-4">
+        <div class="plant_text">
+          <img src="image/Vector.png" alt="icon" />
+          <h1>Wellbeing starts with welldoing</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam
+            lacus platea orci vel elit blandit facilisis enim risus. Ut
+            tristique eget integer odio nec.
+          </p>
+          <button id="join-btn" onclick="setupColorCycling()">Join now</button>
+        </div>
+      </div>
+
+      <div class="five_icon" id="pink-section" >
+        <div
+          class="row text-center justify-content-center"
+          style="margin-top: 40px"
+        >
+          <div class="plant_icon col-md-6 col-lg-3 mb-4">
+            <img src="image/Icon.png" alt="icon" class="img-fluid mb-2" />
+            <h3 class="fs-6 fw-semibold">Plant Protective</h3>
+          </div>
+
+          <div class="plant_icon col-md-6 col-lg-3 mb-4">
+            <img src="image/Icon.png" alt="icon" class="img-fluid mb-2" />
+            <h3 class="fs-6 fw-semibold">Plant Protective</h3>
+          </div>
+
+          <div class="plant_icon col-md-6 col-lg-3 mb-4">
+            <img src="image/Icon.png" alt="icon" class="img-fluid mb-2" />
+            <h3 class="fs-6 fw-semibold">Plant Protective</h3>
+          </div>
+
+          <div class="plant_icon col-md-6 col-lg-3 mb-4">
+            <img src="image/Icon.png" alt="icon" class="img-fluid mb-2" />
+            <h3 class="fs-6 fw-semibold">Plant Protective</h3>
+          </div>
+        </div>
+      </div>
+      <div class="time-down text-center"> <h4>Limited Time Offer!</h4>
+    <div id="countdown">60:00</div>
+
+
+</div>
+    </div>
+    <!-- End Plant -->
+
+    <!-- End Container -->
+    <!-- Start Footer -->
+    <footer class="footer">
+      <div class="footer_left">
+        <div class="d-flex align-items-center footer_logo">
+          <img
+            src="image/Ellipse 1.png"
+            alt="logo"
+            height="20px"
+            width="20px"
+          />
+          <span style="margin-left: 10px">Logo</span>
+        </div>
+        <div class="icon_left align-items-left">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="social_icons">
+        <ul>
+          <li>
+            <a href="#" class="got"><i class="fab fa-fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#" class="got"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#" class="got"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#" class="got"><i class="fab fa-facebook-f"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End Footer -->
+     <div class="Dark-Mode">
+  <label class="theme-switch">
+    <input type="checkbox" id="theme-toggle">
+    <span class="slider"></span>
+  </label>
+</div>
+  </body>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const img = document.querySelector('.nature_img');
+      const text = document.querySelector('.nature_text');
+
+      function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return rect.top < window.innerHeight - 100 && rect.bottom > 0;
+      }
+
+      function checkScroll() {
+        if (isInViewport(img)) {
+          img.classList.add('show');
+        }
+        if (isInViewport(text)) {
+          text.classList.add('show');
+        }
+      }
+
+      window.addEventListener('scroll', checkScroll);
+    });
+  </script>
+
+</html>

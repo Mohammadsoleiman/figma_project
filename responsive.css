@@ -1,0 +1,279 @@
+@media (max-width: 1000px) {
+  .hero .title h1 {
+    font-size: 50.34px;
+    font-weight: 600;
+    line-height: 47px;
+    margin: 0 auto;
+  }
+  .hero .title p {
+    font-size: 17px;
+    color: #2b2b2b;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .picture img {
+    width: 48%;
+    height: auto !important;
+  }
+  .img_right {
+    display: none;
+  }
+
+  .col-6 {
+    width: auto !important;
+  }
+  .left .sub_title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10%;
+  }
+  .left .section_box1 {
+    text-align: center;
+  }
+  .section_box1 img {
+    margin-bottom: 20px;
+  }
+  .nature_img img {
+    height: auto;
+    width: 100%;
+  }
+  .nature_text h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 30px;
+    /* padding: 0; */
+  }
+  .nature_text .parag {
+    font-size: 16px !important;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 1px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+
+  .nature_bar p {
+    margin-left: 15px;
+    font-size: 13px;
+  }
+  .juice {
+    display: none;
+  }
+  .text_juice {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .text_juice,
+  .food_box {
+    text-align: center;
+  }
+  .text_juice h1 {
+    margin-bottom: 40px;
+    font-size: 36px !important;
+    line-height: 40px;
+  }
+  .food_box img {
+    margin-bottom: 15px;
+  }
+  .food_box p {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .plant_text h1 {
+    font-size: 36px !important;
+    line-height: 50px;
+    font-weight: 600;
+  }
+  .plant_text p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: justify;
+    width: 550px;
+    height: 50px;
+  }
+  .plant_text button {
+    margin-top: 10px;
+  }
+  .plant_icon img {
+    height: 50px;
+    width: 50px;
+  }
+  .plant_icon h3 {
+    font-weight: 300 !important;
+  }
+  .five_icon {
+    position: relative;
+    margin-top: -154px !important;
+    margin-bottom: 50px !important;
+
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .footer_left {
+    padding: 25px 0 20px 97px;
+
+    flex-direction: column;
+  }
+  .icon_left {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .social_icons {
+    margin-left: 97px;
+  }
+}
+@media (max-width: 768px) {
+  .btn_logo {
+    margin-left: 0;
+  }
+  .navbar ul {
+    margin-left: 0;
+    align-items: end;
+    display: flex;
+  }
+  .hero .title h1 {
+    font-size: 36.9px !important;
+
+    width: 360px;
+  }
+  .hero .title p {
+    font-size: 16px !important;
+    color: #2b2b2b;
+    font-weight: 400;
+    line-height: 24px;
+    width: 360px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .picture {
+    flex-direction: column;
+    align-items: center;
+  }
+  .picture img {
+    margin-bottom: 30px;
+    height: auto !important;
+    object-fit: cover;
+    width: 100% !important;
+  }
+  .left .sub_title {
+    text-align: center;
+    /* font-size: 52px !important; */
+  }
+  .section_box1 p {
+    font-size: 13px;
+  }
+  .section_box1 img {
+    width: 50px;
+    height: 50px;
+  }
+  .section {
+    padding: 0px 50px 0 50px;
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+  .nature_img img {
+    object-fit: cover;
+    width: 100% !important;
+  }
+
+  .food_box img {
+    height: 50px;
+    width: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .nature_text h1 {
+    font-size: 36px !important;
+    line-height: 50px !important;
+    text-align: center;
+  }
+  .text_juice .food_box {
+    margin: 0 auto;
+  }
+  .text_juice,
+  .row {
+    flex-direction: column;
+  }
+  .nature_text .parag {
+    font-size: 16px !important ;
+    line-height: 25px !important;
+    margin-top: 20px !important;
+  }
+  .plant_text p {
+    display: none;
+  }
+  .plant_text h1 {
+    /* font-size: 53.9px !important;
+    line-height: 71px !important; */
+  }
+  .nature_bar p {
+    color: #285e67;
+  }
+  .icon_left ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text_juice .food_box {
+    margin: 0 auto !important;
+  }
+  .icon_left li {
+    width: 45% !important;
+  }
+  .social_icons {
+    height: 50px;
+  }
+}
+/* ipad */
+
+@media (max-width: 471px) {
+  .five_icon {
+    margin-top: -95px !important;
+  }
+  .nature_img img {
+    margin: 0 auto !important;
+  }
+  .nature,
+  .row {
+    margin-left: 0 !important;
+  }
+  .container {
+    margin: 0 auto !important;
+  }
+}
+@media (max-width: 344px) {
+  .container {
+    margin: 0 auto !important;
+  }
+  .social_icons {
+    
+    margin-left: 30px !important;
+  }
+  .icon_left {
+    width: 100% !important;
+    /* margin-left: 20px !important; */
+   
+   
+  }
+  .footer_left{
+    padding: 27px 6px 16px 33px;
+  }
+  .hero .title h1 {
+    width: 330px !important;
+    font-size: 36px !important;
+  }
+  .hero .title p {
+    width: 330px !important ;
+  }
+  .nature_img{
+  padding-left: 0 !important;
+  }
+ .food{
+  margin-top: 0px !important;
+ }
+}
